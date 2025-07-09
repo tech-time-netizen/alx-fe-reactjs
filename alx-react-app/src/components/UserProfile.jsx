@@ -1,11 +1,11 @@
 import React from 'react'
 
-export default function UserProfile({name, age, bio}) {
+export default function UserProfile(props) {
   return (
     <div>
-          <h2>Name: {name}</h2>
-          <p>Age: {age}</p>
-          <p>Bio: { bio}</p>
+          <h2>Name: {props.name}</h2>
+          <p>Age: {props.age}</p>
+          <p>Bio: { props.bio}</p>
     </div>
   )
 }
