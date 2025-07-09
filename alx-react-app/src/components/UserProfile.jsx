@@ -5,7 +5,7 @@ export default function UserProfile(props) {
     <div>
           <h2>Name: {props.name}</h2>
           <p>Age: {props.age}</p>
-          <p>Bio: { props.bio}</p>
+          <p>Bio: {props.bio}</p>
     </div>
   )
 }
