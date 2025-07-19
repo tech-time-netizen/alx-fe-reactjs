@@ -7,6 +7,7 @@ import UserProfile from './components/UserProfile'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
+import Counter from './components/Counter'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
   return (
     <>
       <WelcomeMessage />
+      <Counter/>
       <Header />
       <MainContent />
       <Footer />
