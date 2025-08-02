@@ -1,5 +1,5 @@
 // Import the recipe store hook to access recipe data and actions
-import useRecipeStore from "../store/recipeStore";
+import useRecipeStore from "./recipeStore";
 
 // RecipeList component displays all recipes with options to delete and update
 const RecipeList = () => {
